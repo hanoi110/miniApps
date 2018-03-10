@@ -1,0 +1,62 @@
+/*内容部分*/
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+    background-color: #ffffff;
+    border: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    padding-bottom: 5px;
+}
+.posts-author-date {
+    margin: 10rpx 0 20rpx 10rpx;
+}
+.posts-author {
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+}
+.posts-date {
+    margin-left: 20rpx;
+    font-size: 26rpx;
+    vertical-align: middle;
+}
+.posts-title {
+    font-size: 34rpx;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.posts-image {
+    width: 100%;
+    height: 340rpx;
+    margin: auto 0;
+    margin-bottom: 15px;
+}
+.posts-content {
+    color: #666;
+    font-size: 28rpx;
+    margin-bottom: 20rpx;
+    margin-left: 20rpx;
+    letter-spacing: 2rpx;
+    line-height: 40rpx;
+}
+/*flex水平布局评论收藏*/
+.posts-like {
+    font-size: 13px;
+    flex-diraction: row;
+    line-height: 16px;
+    margin-left: 10px;
+}
+.posts-like-image {
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.posts-like-font {
+    vertical-align: middle;
+    margin-right: 20px;
+}

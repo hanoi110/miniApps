@@ -1,0 +1,7 @@
+/*template模板引用*/
+@import "posts-item/posts-item-template.wxss"
+/*swiper自动轮播组件*/
+swiper,swiper image {
+    width: 100%;
+    height: 500rpx;
+}
